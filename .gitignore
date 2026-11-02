@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LaTeX 中间文件（article/main.pdf 与 main.tex 需要提交）
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.bcf
+*.run.xml
+*.blg
+*.bbl
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ind
+*.ilg
+*.gls
+*.glg
+*.ist
+*.acn
+*.acr
+*.alg
+*.xdv
+
+# 编辑器（保留 LaTeX Workshop 配置）
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# 原始示波器数据：104 MB，超过 GitHub 单文件 100 MB 限制，未纳入版本控制
+# 复现 FFT 时把它放回 data/530.csv 即可（见 README「数据说明」）
+data/530.csv
